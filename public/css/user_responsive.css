@@ -1,0 +1,1642 @@
+@media screen and (min-width:1025px) {
+
+    /* header .dropdown:hover .dropdown-content {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    } */
+    /* header li.has_submenu:hover > .dropdown .dropdown-btn + .dropdown-content {
+      opacity: 1;
+  } */
+    /* Main Dropdown - Show on Hover */
+    .has_submenu:hover .dropdown-content {
+      display: block;
+      padding-left: 0;
+    }
+
+    header .dropdown:hover .arrow {
+      transform: rotateX(190deg) translateY(3px);
+    }
+
+    /* Show sub_menus on hover of float_right */
+    .float_right:hover .sub_menus {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1499px) {
+    .container {
+      max-width: 1440px !important;
+      width: 100% !important;
+    }
+  }
+
+  /* max-width  responsive css//////////////////////////////////////////////////// */
+
+
+  @media screen and (max-width: 1599px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      line-height: 1.2 !important;
+    }
+
+    .vdo-btm-innr {
+      max-width: 850px;
+    }
+
+    .plyer-detail-cntnt ul li {
+      font-size: 16px;
+      width: 48%;
+    }
+
+    .nav-tabs .nav-link {
+      font-size: 14px;
+    }
+
+    .bio-profile-tabs nav {
+      padding-left: 0;
+    }
+
+    .nav-tabs .nav-link {
+      padding: 11px 8px;
+    }
+
+    .bio-profile-tabs .nav-link {
+      gap: 5px;
+    }
+
+    .athletic-list ul li {
+      padding: 20px 20px;
+      font-size: 16px;
+    }
+
+    .schedule-col-mid {
+      padding: 30px 25px;
+    }
+
+    .feature-mid {
+      font-size: 16px;
+    }
+
+    .txt-itm-mid ul li {
+      align-items: start;
+    }
+
+    .txt-itm-mid ul li span {
+      text-align: right;
+    }
+
+    /*
+    .dropdowns {
+      max-width: 500px;
+    } */
+
+    .coach-bio h3 {
+      font-size: 30px !important;
+    }
+
+    .team-content p {
+      font-size: 18px;
+    }
+
+    .team-content .coach-bio {
+      margin-top: 10px;
+    }
+
+    .sec1_start {
+      padding: 70px 0;
+    }
+  }
+
+  @media screen and (max-width: 1399px) {
+    h1 {
+      font-size: 62px !important;
+    }
+
+    /* abhinav css */
+    .score .inner_side_bar_score .score_part_1 {
+      padding: 20px;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score_img {
+      padding: 34px 0px 0px 0px;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score_img .img1_score {
+      gap: 10px;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score_img .img1_score p {
+      line-height: 1.3;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score_img .img2_score p {
+      font-size: 28px;
+    }
+
+    .inner_side_bar_score .score_part_2 .player_img .img_player {
+      width: 60px;
+    }
+
+    .inner_side_bar_score .score_part_2 .player_img {
+      align-items: center;
+    }
+
+    .inner_score_table .tab_container-box {
+      padding: 12px 20px 20px;
+    }
+
+    .score .inner_score_table p.span_news {
+      margin-bottom: 10px;
+    }
+
+    .inner_side_bar_score .score_part_2 p {
+      font-size: 21px;
+    }
+
+    .score_h {
+      margin-bottom: 45px;
+    }
+
+    .score {
+      padding: 60px 0px 120px 0px;
+    }
+
+    .score .inner_score_table .tab-content {
+      margin-bottom: 27px;
+    }
+
+    nav.tab-container {
+      padding-top: 136px;
+    }
+
+    .coach_name {
+      padding: 17.5px 15px;
+    }
+
+    .coach_title .inner_name_title p span {
+      margin-right: 5px;
+    }
+
+    .coach_name .inner_name,
+    .coach_title .inner_name {
+      padding-left: 281px;
+    }
+
+    .coach_img {
+      max-width: 265px;
+    }
+
+    .coach_title {
+      padding-left: 296px;
+    }
+
+    .tab-content {
+      padding-top: 29px;
+      padding-bottom: 90px;
+    }
+
+    footer .stay_mailotr .stay_mailtrcont .inpt_otr input {
+      padding: 30px 0 28px 40px;
+      font-size: 18px;
+    }
+
+    footer .stay_mailotr .inp_arrwbox img {
+      max-width: 24px;
+      width: 100%;
+      max-height: 24px;
+      height: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 1280px) {
+    header .drop_downbox .flx_drop .flx_dropul {
+      gap: 30px;
+      justify-content: center;
+    }
+
+    header .hd_btnsc {
+      justify-content: center;
+    }
+
+    header .dropdown-btn {
+      padding: 0;
+    }
+
+    .sec1_start .sec1_inside {
+      max-width: 1080px;
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 1199px) {
+    h1 {
+      font-size: 50px !important;
+    }
+
+    h2 {
+      font-size: 40px !important;
+    }
+
+    .athletic-list ul li {
+      padding: 20px 15px;
+    }
+
+    .vdo-btm-innr {
+      max-width: 681px;
+      padding: 20px 25px;
+    }
+
+    .bio-hd-dropdwn {
+      width: 50%;
+    }
+
+    .bio-profile-tabs .nav-link {
+      width: 33%;
+    }
+
+    /* abhinav css */
+    nav.tab-container {
+      padding-top: 140px;
+    }
+
+    .coach_img {
+      max-width: 245px;
+    }
+
+    .coach_name .inner_name,
+    .coach_title .inner_name {
+      padding-left: 271px;
+    }
+
+    .coach_title {
+      padding-left: 286px;
+    }
+
+    .tab-container .nav-tabs .nav-link {
+      padding: 11px 35px;
+    }
+
+    .tab-content .tab-pane h5 {
+      line-height: 32px !important;
+      margin-bottom: 10px !important;
+    }
+
+    .tab-content .tab-pane .pane_p p {
+      margin-bottom: 16px;
+    }
+
+    .hero_sec .slick-next {
+      right: -40px;
+      padding: 60px;
+    }
+
+    .hero_sec .slick-prev {
+      left: -60px;
+      padding: 60px;
+    }
+
+    .size23 {
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .sec1_start {
+      padding: 60px 0;
+    }
+
+    .hdg_slider h2 {
+      padding-bottom: 10px;
+    }
+
+    .otr_marquee {
+      padding: 60px 0;
+    }
+
+    .gallery_sec {
+      padding: 60px 0px;
+    }
+
+    .gallery_sec .gallry_hd h2 {
+      padding-bottom: 20px;
+    }
+
+    .next_gsec .inside_ngame {
+      padding: 60px 0;
+    }
+
+    .otr_footsec .inside_footsec {
+      padding: 60px 0px 60px 0px;
+    }
+
+    .controls .slick-prev {
+      left: 43%;
+      top: 87%;
+      padding: 21px !important;
+    }
+
+    .controls .slick-next {
+      right: 43%;
+      top: 87%;
+      padding: 21px !important;
+    }
+
+    .controls .slick-prev,
+    .slick-next,
+    #playPauseBtn {
+      padding: 10px 17px;
+    }
+
+    .image_playpause .controls {
+      margin-top: 20px;
+    }
+
+    .image_playpause .inside_playimg {
+      padding-bottom: 60px;
+    }
+
+    footer .stay_mailotr .inside_gamilstay {
+      padding: 60px 0;
+    }
+
+    footer .stay_mailotr .stay_mailtrcont .inpt_otr input {
+      padding: 18px 0 18px 30px;
+      font-size: 16px;
+    }
+
+    footer .stay_mailotr .inp_arrwbox img {
+      max-width: 23px;
+      width: 100%;
+      max-height: 27px;
+      height: 100%;
+    }
+
+    footer .stay_mailotr .stay_mailtrcont .inpt_otr input::placeholder {
+      font-size: 16px;
+    }
+
+    footer .footer_linksbox .inside_footer {
+      padding: 60px 0;
+    }
+
+    header .insde_slidr {
+      padding: 0px 20px;
+
+    }
+
+    .sec1_start .sec1_inside {
+      max-width: 990px;
+      width: 100%;
+
+    }
+
+    /* ab css ////// */
+
+    .score {
+      padding: 50px 0px 100px 0px;
+    }
+
+    .score_part_3 .close_img {
+      padding: 3px 8px;
+    }
+
+    .score_h {
+      margin-bottom: 35px;
+    }
+
+    .score .inner_score_table .tab-content .tab-pane table.table tbody tr th .table_1img .img_table {
+      padding: 0;
+    }
+
+    .featured-div {
+      padding: 18px;
+    }
+
+    .feature-mid,
+    .prev-nxt-btn {
+      font-size: 15px;
+    }
+
+    .schedule-mid-hd .nav-link {
+      font-size: 16px;
+    }
+
+    .featured-div {
+      font-size: 14px;
+    }
+
+    .g-17 {
+      gap: 12px;
+    }
+
+    .txt-itm-mid {
+      padding: 0 13px;
+      font-size: 15px;
+    }
+
+    .txt-itm-mid ul li p,
+    .prev-nxt-btn {
+      gap: 7px;
+    }
+
+    .txt-itm-mid ul li {
+      align-items: start;
+    }
+
+    .txt-itm-mid ul li span {
+      text-align: right;
+    }
+
+    .bio-hd-toggle input {
+      padding: 6px 13px;
+    }
+
+    .schedule-team .search-bar {
+      padding: 6px 12px;
+    }
+
+    .schedule-team .bio-hd-toggle {
+      height: 35px;
+    }
+
+    .schedule-team {
+      padding: 15px 20px;
+    }
+
+    .all-txt-item {
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+
+    .search-list ul li a {
+      font-size: 13px;
+    }
+
+    .search-list ul li:not(:last-child) {
+      padding-bottom: 10px;
+    }
+
+    .player-head h2 {
+      margin-bottom: 30px;
+    }
+
+    .team-content .coach-info {
+      margin: 80px 0px 30px;
+    }
+
+    .player-content .info p {
+      margin: 0;
+    }
+
+    .player-content .player-data {
+      padding: 20px 15px;
+    }
+
+    .player-data h6 {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .player-data h6 span {
+      font-size: 25px;
+      line-height: 1.2;
+    }
+
+    .player-content .info * {
+      font-size: 15px;
+    }
+
+    .player-content .player-info {
+      margin-bottom: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .sec1_start .sec1_inside {
+      max-width: 680px;
+      width: 100%;
+    }
+
+    .flex_ngame .form_next .form_nextbox .days_nxt {
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame {
+      gap: 10px;
+    }
+
+    .gelly_img .play_button {
+      width: 50px;
+      height: 50px;
+    }
+
+    .flex_ngame .form_next .form_nextbox .nxt_cnt .centr_nxt {
+      font-size: 25px;
+      line-height: normal;
+    }
+
+    .controls .slick-prev {
+      left: 43%;
+    }
+
+    header .dropdown-content {
+      min-width: 300px !important;
+    }
+
+  }
+
+  @media screen and (max-width: 991px) {
+    h2 {
+      font-size: 36px !important;
+    }
+
+    h3 {
+      font-size: 28px !important;
+    }
+
+    .cta_btn {
+      padding: 13px;
+    }
+
+    .bio-hd-toggle {
+      max-width: 180px;
+    }
+
+    .bio-hd h2 {
+      width: 50%;
+    }
+
+    .controls .slick-prev {
+      left: 40%;
+    }
+
+    .controls .slick-next {
+      right: 40%;
+    }
+
+    .vdo-btm-innr {
+      max-width: 480px;
+      padding: 20px 25px;
+    }
+
+    .social-links li a {
+      font-size: 15px;
+    }
+
+    /* abhinav css */
+    .roster-option {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .coach_img {
+      max-width: 185px;
+    }
+
+    .coach_name .inner_name,
+    .coach_title .inner_name {
+      padding-left: 200px;
+    }
+
+    .coach_title {
+      padding-left: 210px;
+    }
+
+    .coach_name {
+      padding: 10px 15px;
+    }
+
+    nav.tab-container {
+      padding-top: 46px;
+    }
+
+    .tab-content {
+      padding-top: 19px;
+      padding-bottom: 60px;
+    }
+
+    .coach_name .inner_img_logo {
+      max-width: 25px;
+      height: 25px;
+    }
+
+    .coach_title .inner_name_title {
+      padding: 10px 0px;
+    }
+
+    .nav {
+      flex-wrap: unset;
+      flex-direction: column;
+    }
+
+    .nav-tabs {
+      border-bottom: none;
+    }
+
+    nav.tab-container {
+      padding-left: 0px;
+    }
+
+    .tab-container .nav-tabs .nav-link.active::after {
+      display: none;
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+      border: 2px solid #ee3a7f !important;
+    }
+
+    .tab-container .nav-tabs .nav-link {
+      justify-content: center;
+    }
+
+    .otr_footsec .slick-dots {
+      bottom: 0;
+    }
+
+    .hero_imgabs img {
+      max-width: 200px;
+      width: 100%;
+      max-height: 240px;
+      height: 100%;
+    }
+
+    header .dropdown-btn {
+      font-size: 16px;
+    }
+
+    header .drop_downbox .flx_drop .flx_dropul li a {
+      font-size: 16px;
+    }
+
+    .stay_mailotr .stay_mailtrhd {
+      margin-bottom: 20px;
+    }
+
+    header .inside_tophd .close_abs {
+      right: 30px;
+    }
+
+    header .inside_tophd {
+      padding: 10px 20px;
+    }
+
+    /* ab css ////////////// */
+
+    .score {
+      padding: 50px 0px 70px 0px;
+    }
+
+    .inner_score_table .tab_container-box {
+      margin: 15px 0px;
+    }
+
+    .score .inner_score_table .nav-pills li.nav-item {
+      margin-right: unset;
+      margin-bottom: 10px;
+    }
+
+    .score .inner_score_table .nav-pills li.nav-item .nav-link {
+      width: 100%;
+    }
+
+    .score .inner_score_table .nav-pills li.nav-item:last-child {
+      margin-bottom: 0px;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score_img {
+      padding: 24px 0px 0px 0px;
+    }
+
+    .score .inner_side_bar_score .score_part_1,
+    .score .inner_side_bar_score .score_part_2 {
+      padding: 24px;
+    }
+
+    .schedule-col-mid {
+      margin: 20px 0;
+    }
+
+    .schedule-mid-hd .nav {
+      flex-direction: row;
+    }
+
+    .dropdowns {
+      max-width: 450px;
+    }
+
+    .dropdowns .bio-hd-toggle {
+      max-width: 220px;
+    }
+
+    .team-content p {
+      font-size: 18px;
+    }
+
+    .team-content .coach-bio {
+      margin-top: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 767px) {
+    .vdo-btm-innr {
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-width: 324px;
+      text-align: left;
+      align-items: start !important;
+      padding: 12px 15px;
+    }
+
+    .player-details {
+      gap: 8px;
+    }
+
+    .bio-profile-tabs .nav-link {
+      width: 100%;
+    }
+
+    .athletic-list ul li {
+      width: 100%;
+    }
+
+    .athletic-list .nav-tabs {
+      border-bottom: none;
+    }
+
+    .plyer-detail-cntnt ul li {
+      font-size: 15px;
+      width: 100%;
+      padding: 12px 0;
+    }
+
+    .player-img {
+      margin-top: -126px;
+    }
+
+    .bio-profile-tabs nav {
+      padding-top: 30px;
+    }
+
+    .athletic-list ul li:nth-child(2) {
+      border-left: 1px solid #06205c17;
+      border-right: 1px solid #06205c17;
+    }
+
+    li.empty-list {
+      display: none;
+    }
+
+    #play_button {
+      width: 25px;
+      height: 25px;
+      bottom: 100px;
+      right: 10px;
+    }
+
+    header .drop_downbox .flx_drop .flx_dropul {
+      display: none;
+    }
+
+    header .responv_box {
+      display: block;
+      position: relative;
+      z-index: 99;
+    }
+
+    header .navbar-toggler {
+      display: flex;
+    }
+
+    header .flx_drop {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding: 3px 0px;
+    }
+
+    header #navbarSupportedContent .flx_dropul {
+      display: block;
+      gap: 0;
+    }
+
+    header .hd_btnsc {
+      display: none;
+    }
+
+    .responv_view .hd_btnsc {
+      display: inline-grid;
+      width: 100%;
+      justify-content: left;
+    }
+
+    .responv_view .hd_btnsc .cta_btn {
+      padding: 10px !important;
+      background-color: #ee3a7f !important;
+    }
+
+    .roster-option .dropdowns {
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .roster-option .dropdown-container>div select {
+      width: 100% !important;
+    }
+
+    .roster-option .dropdown-container {
+      width: 100% !important;
+    }
+
+    .roster-option .dropdown-container>div {
+      width: 100%;
+    }
+
+
+    header .insde_slidr {
+      gap: 60px !important;
+      justify-content: normal;
+    }
+
+    header .hed_slider .insde_slidr .site_logo .logo_img img {
+      margin: 0;
+    }
+
+    header .site_logo {
+      width: 30%;
+    }
+
+    .responv_box .hd_btnsc {
+      display: block;
+      width: 100%;
+    }
+
+    header #navbarSupportedContent .flx_dropul li {
+      margin: 10px 0;
+    }
+
+    /* header .dropdown-content {
+      max-width: 160px;
+      width: 100%;
+    } */
+
+
+
+    header .dropdown-btn {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    header #navbarSupportedContent ul {
+      top: 0px;
+      background-color: transparent;
+    }
+
+    header #navbarSupportedContent {
+      width: 100% !important;
+      /*    height: 100vh !important;*/
+    }
+
+    .responv_box .dropdown .dropdown-content a {
+      color: #fff !important;
+    }
+
+    .hero_sec .slick-dots {
+      bottom: 0;
+    }
+
+    .hero_sec .slick-dots li button:before {
+      color: #fff !important;
+      opacity: 1;
+    }
+
+    .hero_sec .slick-dots li {
+      margin: 0;
+    }
+
+    .hero_sec .slick-dots li.slick-active button:before {
+      opacity: 1;
+      color: rgba(238, 58, 127, 1) !important;
+      font-size: 13px;
+    }
+
+    header #navbarSupportedContent .flx_dropul li .hd_btnsc a:hover {
+      background-color: rgba(6, 32, 92, 1);
+    }
+
+    header #navbarSupportedContent .flx_dropul li .sech_btn i:hover {
+      background-color: rgba(6, 32, 92, 1);
+      color: #fff !important;
+    }
+
+    header #navbarSupportedContent .flx_dropul li .hd_btnsc a {
+      color: #fff;
+      width: 100%;
+    }
+
+    .hero_sec .banner-slider.slick-initialized.slick-slider {
+      margin-bottom: 0;
+    }
+
+    .sec1_start {
+      padding: 30px 0;
+    }
+
+    .blog_sildr {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      border: 0;
+
+    }
+    .slide_bcontent{
+      padding: 0 10px !important;
+
+    }
+
+    .blog_sec .inside_blg .slick-blog.slick-initialized.slick-slider.slick-dotted {
+      margin-bottom: 10px;
+    }
+
+    .latest_blog {
+      gap: 25px;
+      padding-left: 0;
+    }
+
+    .otr_marquee .inside_marquee .marquee_hdg {
+      min-width: 130px;
+      width: 100%;
+    }
+
+    .otr_marquee .inside_marquee .marquee_hdg h4 {
+      font-size: 22px !important;
+      padding: 0px;
+    }
+
+    .otr_marquee {
+      padding: 40px 0;
+    }
+
+    .gallery_sec {
+      padding: 40px 0px;
+    }
+
+    .gelly_img .play_button::after {
+      border-left: 14px solid white;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+    }
+
+    .gallery_sec .gelly_img {
+      margin: 0 10px;
+    }
+
+    .next_gsec .inside_ngame {
+      padding: 40px 0;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame .hd_ngame {
+      width: 40%;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame .img_ngame {
+      width: 50%;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame {
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .flex_ngame .form_next .form_nextbox .days_nxt {
+      margin-bottom: 10px;
+    }
+
+    .otr_footsec .inside_footsec {
+      padding: 40px 0px 40px 0px;
+    }
+
+    .controls .slick-prev {
+      left: 37%;
+    }
+
+    .controls .slick-next {
+      right: 37%;
+    }
+
+    footer .stay_mailotr .inside_gamilstay {
+      padding: 40px 0px;
+    }
+
+    .image_playpause button {
+      display: none !important;
+    }
+
+    .sec1_start .sec1_inside {
+      max-width: 430px;
+      width: 100%;
+    }
+
+    .image_playpause .inside_playimg {
+      padding-bottom: 40px;
+    }
+
+    .roster-option {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .player-content .player-num {
+      height: 45px;
+      width: 45px;
+      font-size: 20px;
+    }
+
+    /* ab css ///////// */
+
+    .score {
+      padding: 50px 0px 60px 0px;
+    }
+
+    .score_h {
+      margin-bottom: 25px;
+    }
+
+    .responv_view .navbar-toggler {
+      display: flex;
+      /* Show button on mobile */
+    }
+
+
+
+    /* responsive  dropdown /////////////////////////////////////////////////////////////// */
+
+    .sub_menus {
+      padding-left: 0;
+      display: none;
+      position: static;
+      background: #000;
+      box-shadow: none;
+
+    }
+
+    .float_right .toggle-dropdown {
+      padding: 2px;
+    }
+
+    .responv_view #navbarSupportedContent {
+      flex-direction: column;
+      position: absolute;
+      top: 30px;
+      right: 0%;
+      width: 100% !important;
+      background-color: rgba(8, 177, 236, 1);
+      box-shadow: none;
+      padding: 10px;
+      z-index: 9999;
+    }
+
+    .drop_downbox .responv_view {
+      display: block !important;
+    }
+
+
+    .responv_view #navbarSupportedContent.active {
+      display: flex;
+    }
+
+    .responv_view .flx_dropul {
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+    }
+
+    .responv_view .flx_dropul li {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 0 !important;
+    }
+
+    .responv_view .dropdown.active .dropdown-content .sub_menus.active .submenu {
+      padding: 10px 0;
+    }
+
+    .responv_view .dropdown.active .dropdown-content .menu li .toggle-dropdown {
+      padding-bottom: 10px;
+    }
+
+    .responv_view .flx_dropul li a {
+      display: block;
+      padding: 0px 0;
+      background-color: rgba(8, 177, 236, 1) !important;
+      color: #333;
+      text-decoration: none;
+    }
+
+    /* Dropdown Styles */
+    .responv_view .dropdown-content {
+      display: none;
+      background-color: rgba(8, 177, 236, 1);
+      padding: 2px 0;
+      position: static;
+      box-shadow: none;
+    }
+
+    .flx_dropul .dropdown {
+      position: relative !important;
+      width: 100%;
+    }
+
+    .responv_view {
+      display: block;
+    }
+
+    .responv_view .dropdown.active .dropdown-content {
+      display: block !important;
+      min-width: 100% !important;
+      width: 100%;
+    }
+
+
+
+
+
+
+  }
+
+  @media screen and (max-width: 575px) {
+    p {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 22px !important;
+    }
+
+    .size23 {
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    h1 {
+      font-size: 36px !important;
+    }
+
+
+    header .dropdown-btn {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+    }
+
+    .float_right .arrow {
+      transform: rotatez(0deg) translateY(2px) !important;
+      font-size: 14px;
+    }
+
+    .float_right .toggle-dropdown {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .otr_marquee .inside_marquee .marquee_hdg h4 {
+      font-size: 18px !important;
+    }
+
+    .bio-hd {
+      flex-direction: column;
+    }
+
+    .bio-hd>div {
+      width: 100%;
+    }
+
+    .bio-hd-toggle .select-menu .options {
+      width: 180px;
+    }
+
+    .player-details {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+
+    .player-img {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .Coach .coach_info .coach_name_d {
+      margin-top: 15px;
+    }
+
+    .Coach {
+      padding-top: 30px;
+    }
+
+    /* abhinav css //////////////////////////////////////////////////////////*/
+    .coach_img {
+      position: unset;
+    }
+
+    .coach_name {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .coach_name .inner_name,
+    .coach_title .inner_name {
+      padding-left: 0;
+    }
+
+    .coach_title {
+      padding-left: 15px;
+    }
+
+    nav.tab-container {
+      padding-top: 6px;
+    }
+
+    footer .stay_mailotr .inside_gamilstay {
+      padding: 20px 0px;
+    }
+
+    footer .footer_linksbox .inside_footer {
+      padding: 20px 0;
+    }
+
+    footer .footer_linksbox .fot_linksec .foot_ul a {
+      line-height: 34px;
+    }
+
+
+
+    .tab-content {
+      padding-bottom: 20px;
+    }
+
+    .tab-content .tab-pane h5 {
+      font-size: 20px !important;
+      line-height: 22px !important;
+    }
+
+    .tab-content .tab-pane .pane_p p {
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    .coach_img {
+      position: unset;
+      width: 100%;
+      max-width: unset;
+    }
+
+    .coach_name .coach_name_d .coach_name_part_1 {
+      width: 60%;
+    }
+
+    .coach_name .coach_name_d .coach_name_part_2 {
+      width: 40%;
+    }
+
+    .gelly_img .play_button {
+      width: 30px;
+      height: 30px;
+    }
+
+    .gelly_img .play_button::after {
+      border-left: 8px solid white;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+    }
+
+    header #navbarSupportedContent {
+      width: 260px !important;
+    }
+
+    header .insde_slidr {
+      gap: 0px !important;
+    }
+
+    header .slid_hdr .slick-slider .slick-list.draggable .slick-slide .sldin_cont {
+      padding: 8px;
+    }
+
+    header .date_tm .timdt_fl {
+      margin-bottom: 10px;
+      gap: 10px;
+      padding-bottom: 5px;
+    }
+
+    header .slide_logfl .slide_logflul {
+      margin-bottom: 0;
+    }
+
+    header .date_tm .timdt_fl .li_aft::after {
+      right: -6px;
+      top: 2px;
+    }
+
+    .hero_imgabs img {
+      max-width: 140px;
+      width: 100%;
+      max-height: 80px;
+      height: 100%;
+    }
+
+    .hero_sec .current-slide {
+      font-size: 18px;
+    }
+
+    .hero_sec .slider-counter {
+      bottom: 0;
+      right: 5px;
+      font-size: 13px;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame .hd_ngame {
+      width: 100%;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame {
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .next_gsec .inside_ngame .flex_ngame .img_ngame {
+      text-align: center;
+      width: 100%;
+    }
+
+    .flex_ngame .form_next {
+      width: 100%;
+    }
+
+    .flex_ngame .form_next .form_nextbox .nxt_time {
+      font-size: 18px;
+    }
+
+    .flex_ngame .form_next .form_nextbox .nxt_cnt .centr_nxt {
+      font-size: 20px;
+    }
+
+    .otr_footsec .slick-dots li.slick-active button:before {
+      font-size: 10px;
+    }
+
+    .otr_footsec .slick-dots li button:before {
+      color: rgba(255, 255, 255, 0.26) !important;
+      font-size: 7px;
+    }
+
+    .otr_footsec .slick-dots li {
+      width: 8px;
+    }
+
+    .image_playpause .inside_playimg {
+      padding-bottom: 0px;
+    }
+
+    footer .otr_ab .mesge_box img {
+      max-width: 60px;
+      width: 100%;
+    }
+
+    footer .foot_endbox .foot_logo .foot_img {
+      max-width: 160px;
+      width: 100%;
+    }
+
+    .next_gsec .inside_ngame .img_ngame img {
+      max-width: 130px;
+      width: 100%;
+    }
+
+    .media_abdrag img {
+      max-width: 50px;
+      width: 100%;
+    }
+
+    .otr_marquee .marquee-slider .marquee-item {
+      font-size: 18px;
+    }
+
+    .sec1_start .sec1_inside {
+      max-width: 280px;
+      width: 100%;
+    }
+
+    .sec1_start .cross_icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    header .inside_tophd {
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+    }
+
+    header .inside_tophd .brk_txt::after {
+      display: none;
+    }
+
+    header .inside_tophd .close_abs {
+      right: 10px;
+      top: 12px;
+    }
+
+    footer .stay_mailotr .stay_mailtrcont {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    footer .stay_mailotr .inp_arrwbox {
+      width: 14%;
+    }
+
+    footer .stay_mailotr .inp_arrwbox img {
+      max-width: 20px;
+      width: 100%;
+    }
+
+    .schedule-mid-hd {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .schedule-mid-hd .nav-link {
+      padding: 5px 10px;
+    }
+
+    .schedule-col-mid {
+      padding: 20px;
+    }
+
+    .schedule-mid-hd {
+      padding-bottom: 20px;
+    }
+
+    .txt-lft-mid-wrp {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .txt-itm-lft p br {
+      display: none;
+    }
+
+    .score-section {
+      padding-bottom: 60px;
+    }
+
+    .show-all-btn {
+      margin-top: 18px;
+    }
+
+    .txt-itm-mid {
+      padding: 0;
+      font-size: 14px;
+    }
+
+    .txt-itm-mid {
+      border: none;
+    }
+
+    .all-txt-item {
+      padding: 15px 0;
+      position: relative;
+    }
+
+    .txt-itm-rgt {
+      position: absolute;
+      right: 0;
+    }
+
+    .txt-itm-mid ul li span {
+      text-align: center;
+    }
+
+    .feat-img img {
+      height: 35px;
+      width: 35px;
+      object-fit: contain;
+    }
+
+    .feature-mid,
+    .prev-nxt-btn,
+    .featured-div {
+      font-size: 13px;
+    }
+
+    .roster-option .dropdowns {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .dropdowns .bio-hd-toggle {
+      max-width: 100%;
+    }
+
+    .team-content .coach-info {
+      margin: 40px 0px 30px;
+    }
+
+    .team-content p {
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 30px !important;
+    }
+
+    .bio-hd h2 {
+      width: 100%;
+    }
+
+    .vdo-btm-innr {
+      padding: 5px 15px;
+    }
+
+    .vdo-btm-innr h3,
+    .social-links li a {
+      font-size: 13px !important;
+      margin: 0;
+    }
+
+    #play_button {
+      bottom: 60px;
+    }
+
+    .search-bar {
+      padding: 5px 9px;
+    }
+
+    .p_60 {
+      padding: 40px 0;
+    }
+
+    .nav-tabs .nav-link.active::after {
+      display: none;
+    }
+    .otr_footsec .inside_footsec {
+      padding: 20px 0px 20px 0px;
+    }
+    .nav-tabs {
+      border-bottom: 0 !important;
+    }
+    .otr_marquee {
+      padding: 20px 0;
+  }
+  .sec1_start {
+    padding: 20px 0;
+  }
+    .nav-tabs .nav-link {
+      border-radius: 5px;
+    }
+
+    /* ab css //////////// */
+    #play_button {
+      width: 23px;
+      height: 24px;
+      right: 10px;
+      font-size: 13px;
+      padding: 3px 0 0 1px;
+    }
+
+    .score .inner_side_bar_score .score_part_1,
+    .score .inner_side_bar_score .score_part_2 {
+      padding: 14px;
+    }
+
+    .score {
+      padding: 50px 0px 50px 0px;
+    }
+
+    .score .inner_score_table .tab-content {
+      margin-bottom: 15px;
+    }
+
+    .inner_side_bar_score .score_part_2 .player_img {
+      margin-top: 15px;
+    }
+
+    .inner_side_bar_score .score_part_1 .part1_score p span {
+      padding: 0px 5px;
+    }
+
+    .responv_view .hd_btnsc {
+      width: 100%;
+      text-align: center;
+    }
+  }
